@@ -1,8 +1,4 @@
 package com.shipment.shipmentservice.model;
-// We’re going to create a simple Shipment service that manages the Shipment of a company.
-// We’ll store shipment objects in a (sql) database,
-// and access them (via something called JPA).
-// Then we’ll wrap that with something that will allow access over the internet (web: spring MVC)
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import com.shipment.shipmentservice.enums.PackageShipment;
